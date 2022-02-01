@@ -1,0 +1,9 @@
+horas = int(input())
+kmh = int(input())
+
+carro = 12
+
+c1 = kmh * horas 
+c2 = c1 / carro 
+
+print("{:.3f}" .format(c2)) 
